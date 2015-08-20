@@ -1,7 +1,21 @@
-$body-bg:		#3498db;
-$navbar-default-bg: #34495e;
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+
+$body-bg:					#3498db;
+$font-family-serif:				'Slabo 27px', serif;
+$navbar-height:				45px;
+$navbar-default-bg: 		#34495e;
 $navbar-default-link-color: #ecf0f1;
-$brand-primary: #e67e22;
+$navbar-default-brand-color: #e67e22;
+$brand-primary: 			#e67e22;
+$brand-default:				#2ecc71;
 
 @import 'bootstrap';
 @import "bootstrap-sprockets";
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+		font-weight: bold;
+}
