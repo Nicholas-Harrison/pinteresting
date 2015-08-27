@@ -9,8 +9,9 @@ $navbar-default-brand-color: #e67e22;
 $brand-primary: 			#e67e22;
 $brand-default:				#2ecc71;
 
-@import 'bootstrap';
+
 @import "bootstrap-sprockets";
+@import 'bootstrap';
 
 .center {
 	text-align: center;
